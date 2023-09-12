@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/index.css">
+    <script src="https://kit.fontawesome.com/56c7bcb4f2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="header-container">
+        <nav>
+            <div class="nav-title-text">
+                <h1>Scribbler</h1>
+                <span>Explore, Imagine, Create</span>
+            </div>
+            <div class="nav-title-btns">
+                <button class="signup-btn">Sign Up</button>
+                <button class="signin-btn">Sign In</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="outer">
+    <div class="signup-model-box">
+        <div class="get-started-text">
+            <h2 id="text">Get Started</h2>
+            <span><i class="fa-solid fa-xmark mark"></i></span>
+        </div>
+        
+        <form action="#" autocomplete="on">
+            <div class="form-boxes">
+                <label>Name</label>
+                <input required type="text" placeholder="Enter your name" autocomplete="on">
+            </div>
+            <div class="form-boxes">
+                <label>Username</label>
+                <input required type="text" placeholder="Enter your username" autocomplete="on">
+            </div>
+            <div class="form-boxes">
+                <label>Password</label>
+                <input required type="password" placeholder="Enter your password" autocomplete="on">
+            </div>
+            <div class="form-boxes">
+                <label>Confirm password</label>
+                <input required type="password" placeholder="Re-enter your password" autocomplete="on">
+            </div>
+            <div class="form-boxes">
+                <button type="submit" class="btn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div class="signin">
+        <div class="signin-model-box">
+            <div class="get-started-text">
+                <h2 id="text">Welcome Back!</h2>
+                <span><i class="fa-solid fa-xmark mark1"></i></span>
+            </div>
+            <form action="#" autocomplete="on">
+                <div class="form-boxes">
+                    <label>Username</label>
+                    <input required type="text" placeholder="Enter your username" autocomplete="on">
+                </div>
+                <div class="form-boxes">
+                    <label>Password</label>
+                    <input required type="password" placeholder="Enter your password" autocomplete="on">
+                </div>
+
+                <div class="form-boxes">
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+            </form>
+
+            <div class="form-boxes remember">
+                <h4>Not a member? <a href="#" class="redirect-to-signup"> Sign Up</a></span></h4>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="posts-btns">
+        <button><a href="/html/postslist.html">All Posts</a></button>
+        <button id="createPost">Create Post</button>
+    </div>
+
+<!-- 
+    <div class="post-creation">
+        <div class="create-container">
+            <div class="get-started-text">
+                <h2 id="text">Welcome Back!</h2>
+                <span><i class="fa-solid fa-xmark"></i></span>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="create-post">
+        <div class="post-container">
+            <div class="get-started-text">
+                <h2 id="text">Pen Your Post</h2>
+                <span><i class="fa-solid fa-xmark pen-mark"></i></span>
+            </div>
+            <div class="title">
+                <h3>Title</h3>
+                <input type="text" id="post-title" placeholder="Enter title of your post">
+            </div>
+            <div class="title">
+                <h3>Contents</h3>
+                <textarea id="text-area" placeholder="Enter the contents of your post"></textarea>
+            </div>
+            <div class="create-btn">
+                <button>Create</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- TODO: Include all your code for the header and home page here -->
+
+    <script src="/scripts/index.js"></script>
+</body>
+
+</html>

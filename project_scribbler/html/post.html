@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/post.css">
+    <script src="https://kit.fontawesome.com/56c7bcb4f2.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="header-container">
+        <nav>
+            <div class="nav-title-text">
+                <a href="/index.html"><h1>Scribbler</h1></a>
+                <span>Explore, Imagine, Create</span>
+            </div>
+            <div class="nav-title-btns">
+                <button class="signup-btn">Sign Up</button>
+                <button class="signin-btn">Sign In</button>
+            </div>
+        </nav>
+    </div>
+
+    <div class="outer">
+    <div class="signup-model-box">
+        <div class="get-started-text">
+            <h2 id="text">Get Started</h2>
+            <span><i class="fa-solid fa-xmark mark"></i></span>
+        </div>
+        
+        <form action="#" autocomplete="on">
+            <div class="form-boxes">
+                <label>Name</label>
+                <input required type="text" autocomplete="on" placeholder="Enter your name">
+            </div>
+            <div class="form-boxes">
+                <label>Username</label>
+                <input required type="text"  autocomplete="on" placeholder="Enter your username">
+            </div>
+            <div class="form-boxes">
+                <label>Password</label>
+                <input required type="password" autocomplete="on" placeholder="Enter your password">
+            </div>
+            <div class="form-boxes">
+                <label>Confirm password</label>
+                <input required type="password" autocomplete="on" placeholder="Re-enter your password">
+            </div>
+            <div class="form-boxes">
+                <button type="submit" class="btn">Sign Up</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div class="signin">
+        <div class="signin-model-box">
+            <div class="get-started-text">
+                <h2 id="text">Welcome Back!</h2>
+                <span><i class="fa-solid fa-xmark mark1"></i></span>
+            </div>
+            <form action="#">
+                <div class="form-boxes">
+                    <label>Username</label>
+                    <input required type="text" placeholder="Enter your username" autocomplete="on">
+                </div>
+                <div class="form-boxes">
+                    <label>Password</label>
+                    <input required type="password" placeholder="Enter your password" autocomplete="on">
+                </div>
+
+                <div class="form-boxes">
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+            </form>
+
+            <div class="form-boxes remember">
+                <h4>Not a member? <a href="#" class="redirect-to-signup"> Sign Up</a></span></h4>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="reviews-container">
+        <input type="text" id="heading-data">
+        <div class="flex">
+            <h3>Srishti gupta</h3>
+            <div>
+                <button class="edit-btn">Edit<i class="fa-solid fa-pen-to-square"></i></button>
+                <button class="edit-btn save">Save<i class="fa-solid fa-floppy-disk"></i></button>
+            </div>
+        </div>
+        <textarea id="review"></textarea>
+        <!-- <input id="review"> -->
+        <div class="like-btn">
+            <button id="like"><i class="fa-solid fa-thumbs-up"></i>Liked</button>
+            <p><span id="count">0</span> <span class="persons">person likes this!</span></p>
+            
+        </div>
+        <div class="textarea">
+            <textarea cols="30" rows="5" placeholder="Leave a comment..." id="comment-data"></textarea>
+        </div>
+        <button id="comment-btn">Comment</button>
+
+        <h2>All Comments</h2>
+        <div class="comments-container">
+
+        </div>
+        
+    </div>
+
+    <script src="/scripts/postslist.js"></script>
+    <script src="/scripts/post.js"></script>
+    <script src="/scripts/index.js"></script>
+</body>
+</html>
